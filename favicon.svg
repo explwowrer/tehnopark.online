@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect x="0" y="0" width="32" height="32" rx="6" fill="#0f172a"/>
+  <rect x="3" y="4" width="5.2" height="24" fill="#eab308"/>
+  <rect x="8.2" y="4" width="5.2" height="24" fill="#16a34a"/>
+  <rect x="13.4" y="4" width="5.2" height="24" fill="#dc2626"/>
+  <rect x="18.6" y="4" width="5.2" height="24" fill="#2563eb"/>
+  <rect x="23.8" y="4" width="5.2" height="24" fill="#ea580c"/>
+  <text x="16" y="22" font-family="Arial,sans-serif" font-size="14" font-weight="900" fill="white" text-anchor="middle" letter-spacing="1">ЖК</text>
+</svg>

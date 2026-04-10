@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Allow all files
+<FilesMatch "\.(jpeg|jpg|png|gif|svg|css|js|pdf|mp3|ico|woff|woff2)$">
+  Require all granted
+</FilesMatch>
+
+# Error pages
+ErrorDocument 404 /index.html
