@@ -960,6 +960,9 @@ img {
   border-radius: var(--radius-md);
   padding: 24px 28px;
 }
+.territory-card + .territory-card {
+  margin-top: 20px;
+}
 
 .territory-card h3 {
   font-size: 1.05rem;
